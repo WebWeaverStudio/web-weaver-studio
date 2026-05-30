@@ -303,10 +303,10 @@ details summary::-webkit-details-marker { display: none; }
 .hero__inner {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .hero__badge {
@@ -335,7 +335,7 @@ details summary::-webkit-details-marker { display: none; }
 .hero__subtitle {
   font-size: clamp(1rem, 1.8vw, 1.175rem);
   color: rgba(255,255,255,0.72);
-  max-width: 500px;
+  max-width: 600px;
   margin-bottom: 2rem;
   line-height: 1.7;
 }
@@ -384,8 +384,6 @@ details summary::-webkit-details-marker { display: none; }
 
 @media (max-width: 899px) {
   .hero { padding: 5rem 0 4rem; min-height: auto; }
-  .hero__inner { grid-template-columns: 1fr; }
-  .hero__visual { display: none; }
   .hero__web-svg { width: 90vw; opacity: 0.25; }
 }
 
