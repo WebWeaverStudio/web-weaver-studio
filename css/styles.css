@@ -209,6 +209,7 @@ details summary::-webkit-details-marker { display: none; }
 .header__logo img {
   height: 38px;
   width: auto;
+  border-radius: 6px;
 }
 
 .nav {
@@ -684,19 +685,19 @@ details summary::-webkit-details-marker { display: none; }
 }
 
 .ejemplo__preview--fontaneria {
-  background: linear-gradient(135deg, #0077b6 0%, #00b4d8 100%);
+  background: linear-gradient(135deg, rgba(0,119,182,0.55) 0%, rgba(0,180,216,0.45) 100%), url('../img/ejemplo-fontaneria.jpg') center/cover no-repeat;
 }
 .ejemplo__preview--taller {
-  background: linear-gradient(135deg, #b5451b 0%, #e07b39 100%);
+  background: linear-gradient(135deg, rgba(181,69,27,0.55) 0%, rgba(224,123,57,0.45) 100%), url('../img/ejemplo-taller.jpg') center/cover no-repeat;
 }
 .ejemplo__preview--plagas {
-  background: linear-gradient(135deg, #1b4332 0%, #40916c 100%);
+  background: linear-gradient(135deg, rgba(27,67,50,0.55) 0%, rgba(64,145,108,0.45) 100%), url('../img/ejemplo-plagas.jpg') center/cover no-repeat;
 }
 .ejemplo__preview--antiguedades {
-  background: linear-gradient(135deg, #5c3317 0%, #a0713a 100%);
+  background: linear-gradient(135deg, rgba(92,51,23,0.55) 0%, rgba(160,113,58,0.45) 100%), url('../img/ejemplo-antiguedades.jpg') center/cover no-repeat;
 }
 .ejemplo__preview--bar {
-  background: linear-gradient(135deg, #7b1d1d 0%, #c0392b 100%);
+  background: linear-gradient(135deg, rgba(123,29,29,0.55) 0%, rgba(192,57,43,0.45) 100%), url('../img/ejemplo-bar.jpg') center/cover no-repeat;
 }
 
 .ejemplo__badge {
